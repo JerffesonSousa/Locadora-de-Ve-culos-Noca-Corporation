@@ -56,6 +56,13 @@ public class Agencia {
 	
 
 	/**
+	 * 
+	 */
+	public Agencia() {
+		super();
+	}
+
+	/**
 	 * @param agenciaId
 	 * @param cnpj
 	 * @param inscEstadual

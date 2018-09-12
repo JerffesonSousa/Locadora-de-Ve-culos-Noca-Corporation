@@ -20,7 +20,7 @@ public abstract class Veiculo {
 	@Id
 	@Column(name = "veiculoId")
 	@GeneratedValue
-	private int veiculoID;
+	private int veiculoId;
 	/**
 	 * atributo que representa o registro nacional do veiculo.
 	 */
@@ -95,7 +95,7 @@ public abstract class Veiculo {
 			String potencia, int ano, String cor, String tipoCombustivel,
 			String dataAquisicao, String localizacao, String nivelCombustivel) {
 		super();
-		this.veiculoID = veiculoID;
+		this.veiculoId = veiculoID;
 		RENAVAM = rENAVAM;
 		this.modelo = modelo;
 		this.marca = marca;
@@ -111,11 +111,11 @@ public abstract class Veiculo {
 
 
 	public int getVeiculoID() {
-		return veiculoID;
+		return veiculoId;
 	}
 
 	public void setVeiculoID(int veiculoID) {
-		this.veiculoID = veiculoID;
+		this.veiculoId = veiculoID;
 	}
 
 	public int getRENAVAM() {
